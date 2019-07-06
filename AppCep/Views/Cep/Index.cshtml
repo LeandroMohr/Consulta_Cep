@@ -5,7 +5,7 @@
 <body>
     <div class="row">
         <h1 class="text-center text-capitalize">Consulta de CEP</h1>
-        <div class="col-md-8 col-lg-offset-2">
+        <div class="col-md-8 col-md-offset-2" style="border: 1px solid black; margin-bottom: 20px;">
             <h2>Lista Ceps</h2>
             <table class="table table-striped table-condensed">
                 <thead>
@@ -47,11 +47,11 @@
         </div>
         <form asp-action="BuscaCep" method="get">
             <div class="row">
-                <div class="col-md-8 col-lg-offset-2">
-                    <div class="col-xs-8 col-md-6 form-group">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="col-xs-12 col-md-10 form-group">
                         <input type="text" name="cep" class="form-control" />
                     </div>
-                    <div class="col-xs-4 col-md-6 form-group">
+                    <div class="col-xs-12 col-md-2 form-group">
                         <button type="submit" value="Buscar" class="btn btn-md btn-primary">Pesquisar</button>
                     </div>
                 </div>
